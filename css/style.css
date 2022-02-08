@@ -20,13 +20,29 @@ li {
 a {
 	color: #4183c4;
 }
+img {
+	size: 4in;
+}
 
 /* Substring Matching Attribute Selectors ---- */
 
-a[href^="http://"] {
+a[href^="http:"] {
 	color: aqua;
 	text-decoration: none;
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	padding-left: 25px;
 }
+a[href=".pdf"] {
+	background-image: url('../img/icn-pdf.svg');
+}
+a[href=".jpg"] {
+	background-image: url('../img/icn-pictures.svg');
+}
+a[href=".zip"] {
+	background-image: url('../img/icn-zip.svg');
+}
+
 
 
 
